@@ -77,7 +77,7 @@ namespace Ksu.Cis300.TrieLibrary
         /// </summary>
         /// <param name="s">String that is added to Trie</param>
         /// <returns>Updated Trie</returns>
-        ITrie ITrie.Add(string s)
+        public ITrie Add(string s)
         {
             if (s == "")
             {

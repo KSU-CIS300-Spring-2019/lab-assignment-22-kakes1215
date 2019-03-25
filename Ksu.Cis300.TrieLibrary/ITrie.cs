@@ -12,7 +12,7 @@ namespace Ksu.Cis300.TrieLibrary
     /// <summary>
     /// Trie Interface
     /// </summary>
-    interface ITrie
+    public interface ITrie
     {
         /// <summary>
         /// Holds bool value based on whether it contains a string
@@ -27,5 +27,6 @@ namespace Ksu.Cis300.TrieLibrary
         /// <param name="s">The string that will be added to the Trie</param>
         /// <returns>The updated Trie</returns>
         ITrie Add(string s);
+       
     }
 }

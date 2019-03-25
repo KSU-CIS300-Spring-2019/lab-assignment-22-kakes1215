@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Ksu.Cis300.TrieLibrary
 {
-    class TrieWithOneChild : ITrie
+    public class TrieWithOneChild : ITrie
     {
         /// <summary>
         /// Handles whether an item is an empty string or not
@@ -48,7 +48,7 @@ namespace Ksu.Cis300.TrieLibrary
         /// </summary>
         /// <param name="s">Incoming string</param>
         /// <returns>Updated trie</returns>
-        ITrie Add(string s)
+        public ITrie Add(string s)
         {
             if (s == "")
             {
@@ -88,9 +88,5 @@ namespace Ksu.Cis300.TrieLibrary
             }
 
         }
-
-
-      
     }
-}
 }
